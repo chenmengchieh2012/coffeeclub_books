@@ -10,9 +10,5 @@
 * 投票系統
 * 討論區
 
-<<<<<<< HEAD
 # Using library
-=======
-#Using library
->>>>>>> 90f2f4baea43c55d6f7161527656ffadae283b31
 * getmdl css library.
