@@ -1,0 +1,14 @@
+.id_menu_bar{
+	display: inline;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#root_face{
+    width: 92px;
+    height: 92px;
+    background-color: #ff4081;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 48px;
+}

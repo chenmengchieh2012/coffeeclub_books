@@ -2,9 +2,18 @@
 <head>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="./css/root.css">
+  <link rel="stylesheet" href="./css/util.css">
+  <link rel="stylesheet" href="./css/loading.css">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <!-- component website https://getmdl.io/components/index.html -->
   <script src="./js/loading.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>
+
+  <script src="./js/root.js"></script>
+
 </head>
 <body>
   <div id="loading"></div>
@@ -20,10 +29,9 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
+            <div class="id_menu_bar id_menu_bar_header">
+              <img id="root_face" class="circle-img" ></img>
+            </div>
           </nav>
         </div>
       </header>
